@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Budget App</title>
+</head>
+<body>
+  <style>
+
+  </style>
+  
+    <div class="container">
+        <div class="mainpart"> 
+        <div class="budget">
+            <h2>Budget</h2>
+            <input type="number" placeholder="Enter budget" class="budgetamount">
+            <p class="errormsg">Please enter any amout</p>
+            <select>
+                <option value="$">$</option>
+                <option value="€">€</option>
+                <option value="₦">₦</option>
+            </select>
+            <button class="budgetbtn">Set Budget</button>
+        </div>
+        <div class="expenses">
+            <h2>Expenses</h2>
+            <input type="text" class="itemname" placeholder="Enter Item">
+            <input type="number"  class="cost" placeholder="Enter cost">
+            <button class="costbtn">Set Cost</button>
+        </div>
+    </div>
+
+        <div class="expenditure">
+            <div class="budgetpart"> 
+            <h2>Total Budget</h2>
+            <span class="amountsign"></span>
+            <p class="totalbudget"></p>
+            </div>
+            <div class="totalcost">
+                <h2>Cost</h2>
+                <span class="totalcostamount">0</span>
+            </div>
+            <div class="balance">
+                <h2>Balance</h2>
+                <p class="totalbalance">0</p>
+            </div>
+        </div>
+
+        <div class="output">
+          <ul class="outside">
+            
+          </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
